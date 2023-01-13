@@ -1,0 +1,260 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F1F3F6;
+}
+.nav {
+  background-color: rgb(34, 74, 255);
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  width: auto;
+}
+#logo{
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+}
+#search{
+  display: flex;
+  /* width:500px;*/
+  width: 500px;
+  margin-left: 1rem;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+#search_btn{
+  padding-top: 5.5Px;
+  padding-bottom: 5.5px;
+  border: none;
+  background-color: #FFFFFF;
+  outline: none;
+  color: rgb(34, 74, 255);
+}
+#login_btn{
+  margin-left: 2rem;
+  padding: 10px;
+  width: 8rem;
+  color:  rgb(34, 74, 255);
+  font-size: large;
+  border: none;
+}
+#more_btn{
+  margin-left: 2rem;
+  padding: 10px;
+  width: 6rem;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: large;
+}
+#cart{
+  margin-left: 2rem;
+  padding: 10px;
+  width: 8rem;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: large;
+}
+.category{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 5px #D1D3D5;
+  padding-right: 8rem;
+  padding-left: 4rem;
+  /* border: red solid; */
+}
+
+.category img{
+  height: 6rem;
+  width: 6rem;
+}
+.top_offers{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1rem;
+  /* border: black solid; */
+}
+.dod{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 1rem 4rem;
+  /* border:rgba(0, 0, 0, 0.158) solid; */
+  width: auto;
+  box-shadow: 1px 1px 5px #D1D3D5;
+}
+.dod-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color:white;
+  border-bottom: rgba(0, 0, 0, 0.158) solid
+  
+}
+.dod-content{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  /* border: red solid; */
+}
+#dod{
+flex-direction: row;
+font-size: larger;
+/* font-weight: bold; */
+border: dark solid;
+
+}
+#time{
+  margin-left: 1rem;
+  flex-direction: row;
+  flex-grow: 1;
+  font-size: larger;
+  /* font-weight: bold; */
+}
+#view_all{
+  flex-direction: row;
+  color: white;
+  background-color:  rgb(34, 74, 255);
+  width: 85px;
+  height: 3rem;
+  border: none;
+}
+.dod-content img{
+  width: 10rem;
+  height: 10rem;
+}
+.watch {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: none;
+}
+.temple{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: none;
+}
+.case{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: none; 
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: none;
+}
+.Metronaut{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: none; 
+} 
+.LAVA {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: none; 
+}
+
+.B_M{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 1rem 4rem;
+  box-shadow: 1px 1px 5px #D1D3D5;
+  /* border:rgba(0, 0, 0, 0.158) solid; */
+  /* margin-top: 1rem; */
+  /* border: red solid; */
+}
+.B_M-header{
+  display: flex;
+  flex-direction: row;
+  background-color:white;
+  align-items: center;
+  justify-content: center;
+  border-bottom: rgba(0, 0, 0, 0.158) solid
+}
+.subheader{
+  flex-grow: 1;
+}
+.B_M-content{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+.B_M-content img{
+  width: 10rem;
+  height: 10rem;
+}
+/* #B_M{
+font-size: larger;
+font-weight: bold;
+}
+#shop_now{
+  font-size: medium;
+  color: gray;
+} */
+.Harmoniums {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  /* border: none; */
+  /* border: rgb(234, 0, 255) solid; */
+}
+.Flutes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  /* border: none; */
+}
+.Musical{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: none;
+}
+.Microphone{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: none;
+}
+.Acotics{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: none;
+
+}

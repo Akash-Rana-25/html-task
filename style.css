@@ -76,12 +76,15 @@ ul{
   box-shadow: 1px 1px 5px #D1D3D5;
   padding-right: 8rem;
   padding-left: 4rem;
-  /* border: red solid; */
 }
 
 .category img{
   height: 6rem;
   width: 6rem;
+  /* border: red solid; */
+  padding-right: 4rem;
+  padding-left: 2rem;
+
 }
 .top_offers{
   display: flex;

@@ -47,6 +47,7 @@ ul{
   color:  rgb(34, 74, 255);
   font-size: large;
   border: none;
+  cursor: pointer;
 }
 #more_btn{
   margin-left: 2rem;
@@ -57,6 +58,7 @@ ul{
   text-align: center;
   color: white;
   font-size: large;
+  cursor: pointer;
 }
 #cart{
   margin-left: 2rem;
@@ -67,6 +69,7 @@ ul{
   text-align: center;
   color: white;
   font-size: large;
+  cursor: pointer;
 }
 .category{
   display: flex;
@@ -74,8 +77,9 @@ ul{
   justify-content: center;
   background-color: #FFFFFF;
   box-shadow: 1px 1px 5px #D1D3D5;
-  padding-right: 8rem;
-  padding-left: 4rem;
+  padding-right: 6rem;
+  padding-left: 2rem;
+  flex-wrap: wrap;
 }
 
 .category img{
@@ -97,10 +101,10 @@ ul{
   display: flex;
   flex-direction: column;
   background-color: white;
-  margin: 1rem 4rem;
   /* border:rgba(0, 0, 0, 0.158) solid; */
-  width: auto;
+  /* width: auto; */
   box-shadow: 1px 1px 5px #D1D3D5;
+  flex-grow: 1;
 }
 .dod-header{
   display: flex;
@@ -122,6 +126,7 @@ flex-direction: row;
 font-size: larger;
 /* font-weight: bold; */
 border: dark solid;
+margin-left: 1rem;
 
 }
 #time{
@@ -135,13 +140,16 @@ border: dark solid;
   flex-direction: row;
   color: white;
   background-color:  rgb(34, 74, 255);
-  width: 85px;
+  width: 100px;
   height: 3rem;
   border: none;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 .dod-content img{
   width: 10rem;
   height: 10rem;
+  cursor: pointer;
 }
 .watch {
   display: flex;
@@ -202,7 +210,8 @@ border: dark solid;
   background-color:white;
   align-items: center;
   justify-content: center;
-  border-bottom: rgba(0, 0, 0, 0.158) solid
+  border-bottom: rgba(0, 0, 0, 0.158) solid;
+  margin-left: 1rem;
 }
 .subheader{
   flex-grow: 1;
@@ -215,6 +224,7 @@ border: dark solid;
 .B_M-content img{
   width: 10rem;
   height: 10rem;
+  cursor: pointer;
 }
 /* #B_M{
 font-size: larger;
@@ -260,4 +270,29 @@ font-weight: bold;
   padding: 1rem;
   border: none;
 
+}
+
+
+/* modifcation */
+ .ads{
+  background-color: var(--cardBackgroundColor);
+  box-shadow: 1px 1px 2px 1px var(--shadowColor);
+  display: flex;
+  flex-direction: row;
+  width: auto; 
+  /* align-items: center;
+  justify-content: center;  */
+
+ }
+
+.ads img{
+  width: 15rem;
+  max-height: 27rem;
+  padding: 0.5rem;
+} 
+.dod-ad{
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  margin: 1rem 4rem;
 }

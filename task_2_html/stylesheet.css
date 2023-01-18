@@ -40,8 +40,12 @@ li a:link {
 li a:hover {
   background-color: rgb(4, 170, 109);
   color: white;
+  
 }
-
+.active{
+  background-color: rgb(4, 170, 109);
+  color: white;
+}
 .photo {
   height: 30rem;
   flex-wrap: wrap;

@@ -135,13 +135,17 @@ li {
   flex-wrap: wrap;
   width: 100%;
 }
-
+.category a:hover{
+  color: blue;
+}
 .category img {
   height: 5rem;
   width: 5rem;
-
 }
-
+.category img:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}
 .top_offers {
   display: flex;
   flex-direction: column;
@@ -231,9 +235,12 @@ li {
 .dod-content img {
   width: 10rem;
   height: 10rem;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
-
+.dod-content img:hover{
+  cursor: pointer;
+  transform: scale(1.09);
+}
 .watch {
   display: flex;
   flex-direction: column;
@@ -317,17 +324,12 @@ li {
 .B_M-content img {
   width: 10rem;
   height: 10rem;
+  /* cursor: pointer; */
+}
+.B_M-content img:hover{
   cursor: pointer;
+  transform: scale(1.09);
 }
-
-/* #B_M{
-font-size: larger;
-font-weight: bold;
-}
-#shop_now{
-  font-size: medium;
-  color: gray;
-} */
 .Harmoniums {
   display: flex;
   flex-direction: column;
@@ -388,7 +390,10 @@ font-weight: bold;
   max-height: 27rem;
   padding: 0.5rem;
 }
-
+.ads img:hover{
+  cursor: pointer;
+  transform: scale(1.09);
+}
 .dod-ad {
   display: flex;
   flex-direction: row;

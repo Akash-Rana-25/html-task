@@ -135,17 +135,21 @@ li {
   flex-wrap: wrap;
   width: 100%;
 }
-.category a:hover{
+
+.category a:hover {
   color: blue;
 }
+
 .category img {
   height: 5rem;
   width: 5rem;
 }
+
 .category img:hover {
   cursor: pointer;
   transform: scale(1.09);
 }
+
 .top_offers {
   display: flex;
   flex-direction: column;
@@ -237,10 +241,12 @@ li {
   height: 10rem;
   /* cursor: pointer; */
 }
-.dod-content img:hover{
+
+.dod-content img:hover {
   cursor: pointer;
   transform: scale(1.09);
 }
+
 .watch {
   display: flex;
   flex-direction: column;
@@ -326,10 +332,12 @@ li {
   height: 10rem;
   /* cursor: pointer; */
 }
-.B_M-content img:hover{
+
+.B_M-content img:hover {
   cursor: pointer;
   transform: scale(1.09);
 }
+
 .Harmoniums {
   display: flex;
   flex-direction: column;
@@ -390,10 +398,12 @@ li {
   max-height: 27rem;
   padding: 0.5rem;
 }
-.ads img:hover{
+
+.ads img:hover {
   cursor: pointer;
   transform: scale(1.09);
 }
+
 .dod-ad {
   display: flex;
   flex-direction: row;
